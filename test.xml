@@ -1,0 +1,3400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Multiplas>
+    <tipoArquivo>null</tipoArquivo>
+    <tipoInscricao>null</tipoInscricao>
+    <numeroInscricao>null</numeroInscricao>
+    <codConvenio>null</codConvenio>
+    <numParanTransmicao>null</numParanTransmicao>
+    <dsAmbienteCliente>null</dsAmbienteCliente>
+    <numeroBanco>0</numeroBanco>
+    <numeroDigAgencia>null</numeroDigAgencia>
+    <numeroConta>null</numeroConta>
+    <dsDigConta>null</dsDigConta>
+    <dsNomeEmpresa>TIVIT                                   </dsNomeEmpresa>
+    <dsNomeBanco>null</dsNomeBanco>
+    <numeroNsa>0</numeroNsa>
+    <dsResEmpresa/>
+    <numeroVersao>null</numeroVersao>
+    <horaGeracaoArq>123000</horaGeracaoArq>
+    <dataGeracaoArq>2016-04-30-03:00</dataGeracaoArq>
+    <numeroAgencia>null</numeroAgencia>
+    <status>0</status>
+    <numQtdeLotes>1</numQtdeLotes>
+    <tipoOrigemSistema>null</tipoOrigemSistema>
+    <conteudoRemessa xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoRemessa>
+    <lotes>
+        <numeroLoteServico>0</numeroLoteServico>
+        <codTipoServico>0</codTipoServico>
+        <codFormaLancamento>0</codFormaLancamento>
+        <codTipoInscricao>0</codTipoInscricao>
+        <numeroInscricao>null</numeroInscricao>
+        <codConvenio>null</codConvenio>
+        <codTipoCompromisso>0</codTipoCompromisso>
+        <codCompromisso>0</codCompromisso>
+        <dsParanTransmissao>0</dsParanTransmissao>
+        <numeroAgencia>0</numeroAgencia>
+        <numeroDigAgencia>null</numeroDigAgencia>
+        <numeroConta>null</numeroConta>
+        <dsDigConta>null</dsDigConta>
+        <dsNomeEmpresa>null</dsNomeEmpresa>
+        <dsMsgAviso xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsMsgAviso>
+        <dsLogradouro>null</dsLogradouro>
+        <numeroLocal>null</numeroLocal>
+        <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+        <dsCidade>null</dsCidade>
+        <numeroCep>null</numeroCep>
+        <dsComplementoCep>0</dsComplementoCep>
+        <dsSiglaEstado>null</dsSiglaEstado>
+        <numeroVersao>0</numeroVersao>
+        <numeroValorTotal>0</numeroValorTotal>
+        <numeroValorTotalValido>0</numeroValorTotalValido>
+        <numeroQtdeRegistro>0</numeroQtdeRegistro>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>PORTO SEGURO CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>36680.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>AZUL  SEGURO CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>SONY EXPERIA CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>SONY EXPERIA CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>SONY EXPERIA CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>SONY EXPERIA CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>SONY EXPERIA CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>SONY EXPERIA CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>SONY EXPERIA CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>MOTOROLA DOB CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>MOTOROLA DOB CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>MOTOROLA DOB CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>MOTOROLA DOB CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>MOTOROLA DOB CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>MOTOROLA DOB CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>MOTOROLA DOB CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>MOTOROLA DOB CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>MOTOROLA DOB CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>MOTOROLA DOB CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>MOTOROLA DOB CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>MOTOROLA DOB CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>MOTOROLA DOB CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>MOTOROLA DOB CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>MOTOROLA DOB CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>MOTOROLA DOB CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>PORTO SEGURO CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>PORTO SEGURO CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>PORTO SEGURO CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>PORTO SEGURO CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>PORTO SEGURO CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>PORTO SEGURO CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>PORTO SEGURO CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>PORTO SEGURO CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>PORTO SEGURO CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>PORTO SEGURO CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>PORTO SEGURO CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>PORTO SEGURO CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+        <pagamentos>
+            <codConvenio>null</codConvenio>
+            <codSituacao>0</codSituacao>
+            <codProduto>0</codProduto>
+            <codFinalidade>0</codFinalidade>
+            <numeroBancoCred>237</numeroBancoCred>
+            <numeroAgenciaCread>2374</numeroAgenciaCread>
+            <numeroAcAgenciaCred>null</numeroAcAgenciaCred>
+            <numeroContaCred>0000000062480</numeroContaCred>
+            <numeroAcContaCred>null</numeroAcContaCred>
+            <dsNomeFavorecido>PORTO SEGURO CIA DE SEGUROS GE</dsNomeFavorecido>
+            <dsCpfCnpjFavorecido>061198164</dsCpfCnpjFavorecido>
+            <numeroTipoPessoaFavorecido>2</numeroTipoPessoaFavorecido>
+            <numeroValor>536650.0</numeroValor>
+            <numeroNossoNumero>096079580704</numeroNossoNumero>
+            <numeroSisNumero>null</numeroSisNumero>
+            <numeroSeuNumero>PVP008068      </numeroSeuNumero>
+            <codLote>1</codLote>
+            <finalidadeDoc>null</finalidadeDoc>
+            <numeroLocal>null</numeroLocal>
+            <dsComplemento xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsComplemento>
+            <dsBairro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsBairro>
+            <dsCidade xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsCidade>
+            <numeroCep>1205</numeroCep>
+            <numeroCompleCep xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">001</numeroCompleCep>
+            <dsSiglaEstado xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsSiglaEstado>
+            <tipoConta xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</tipoConta>
+            <dsLogradouro xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</dsLogradouro>
+            <CodMovimento>0</CodMovimento>
+            <CodIdentProduto>null</CodIdentProduto>
+            <CodSegEmpresa>null</CodSegEmpresa>
+            <CodSicap>null</CodSicap>
+            <DSNomePagador>null</DSNomePagador>
+            <DsCampoLivreBarra>null</DsCampoLivreBarra>
+            <NumDVCodBarras>null</NumDVCodBarras>
+            <numeroValorDocumento>36689</numeroValorDocumento>
+            <numeroValorTitulo>0</numeroValorTitulo>
+            <numeroValorDesconto>0</numeroValorDesconto>
+            <numeroValorMulta>0</numeroValorMulta>
+            <FatorVencimento>null</FatorVencimento>
+            <Camara>null</Camara>
+            <Info01>null</Info01>
+            <Info02>null</Info02>
+            <dataVencimento>2016-08-21-03:00</dataVencimento>
+            <dataPagamento>2016-06-30-03:00</dataPagamento>
+            <QtdParcelas>0</QtdParcelas>
+            <IndBloqueio>null</IndBloqueio>
+            <IndParcelamento>null</IndParcelamento>
+            <PeriodoVencimento>0</PeriodoVencimento>
+            <NroParcela>0</NroParcela>
+            <AvisoFavorecido>null</AvisoFavorecido>
+            <ocorrencia>null</ocorrencia>
+            <autenticacao>null</autenticacao>
+            <numeroQtdeRegistroDetalhe>0</numeroQtdeRegistroDetalhe>
+            <segmento>null</segmento>
+            <conteudoPagamento
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudoPagamento>
+            <detalhesB>
+                <conteudo xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">null</conteudo>
+            </detalhesB>
+            <detalhesC/>
+            <detalhesD/>
+            <detalhesE/>
+            <detalhesF/>
+            <detalhesH/>
+            <detalhesI/>
+            <detalhesJ/>
+            <detalhesL/>
+            <detalhesM/>
+            <detalhesP/>
+            <detalhesQ/>
+            <detalhesR/>
+            <detalhesS/>
+            <detalhesT/>
+            <detalhesU/>
+            <detalhesW/>
+            <detalhesY/>
+            <detalhesZ/>
+        </pagamentos>
+    </lotes>
+</Multiplas>
