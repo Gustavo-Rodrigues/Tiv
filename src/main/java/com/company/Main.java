@@ -3,7 +3,14 @@ package com.company;
 
 
 
+import org.apache.avro.Schema;
+import org.apache.avro.generic.GenericDatumReader;
+import org.apache.avro.generic.GenericRecord;
+import org.apache.avro.io.DatumReader;
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FileSystem;
 import org.apache.spark.*;
+import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.function.*;
 import org.apache.spark.streaming.*;
 import org.apache.spark.streaming.api.java.*;
@@ -29,18 +36,16 @@ import javax.xml.datatype.DatatypeFactory;
 import javax.xml.datatype.XMLGregorianCalendar;
 import javax.xml.transform.Source;
 import javax.xml.transform.stream.StreamSource;
-import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.math.BigDecimal;
+import java.net.URI;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.GregorianCalendar;
 import java.util.LinkedList;
 import java.util.List;
@@ -48,17 +53,98 @@ import java.util.List;
 public class  Main {
     public static String inputFile = null;
     public static String outputFile = null;
+
+    public static List<String> file = null;
+    public static boolean header = false;
+    //public static boolean trailler = false;
+
     public static void main(String[] args) {
 
-        SparkConf conf = new SparkConf().setMaster("local[2]").setAppName("tivit_test");
-        JavaStreamingContext jssc = new JavaStreamingContext(conf, Durations.seconds(1000));
+        SparkConf conf = new SparkConf().setAppName("tivit_test");
 
-        // Create a DStream that will connect to hostname:port, like localhost:9999
-        JavaReceiverInputDStream<String> lines = jssc.socketTextStream("localhost", 9999);
-        lines.print();
+        Duration batchInterval = new Duration(10000);
+        //JavaStreamingContext streamingContext = new JavaStreamingContext(conf, Durations.seconds(1000));
+        SparkConf sparkConf = new SparkConf().setAppName("TIVIT");
+        JavaStreamingContext ssc = new JavaStreamingContext(sparkConf, batchInterval);
+        JavaReceiverInputDStream<SparkFlumeEvent> flumeStream = FlumeUtils.createStream(ssc, "127.0.0.1", 10004);
 
-        inputFile = args[0];
-        outputFile = args[1];
+
+        //flumeStream.print();
+
+        //flumeStream.count();
+
+        /*
+        flumeStream.count().map(new Function<Long, String>() {
+            @Override
+            public String call(Long in) {
+                return "Received " + in + " flume events.";
+            }
+        }).print();
+        */
+       file = new LinkedList<String>();
+
+        flumeStream.flatMap(new FlatMapFunction<SparkFlumeEvent, String>() {
+            @Override
+            public Iterable<String> call(SparkFlumeEvent sparkFlumeEvent) throws Exception {
+                //System.out.println("Inside flatMap.call() ");
+                org.apache.avro.Schema avroSchema = sparkFlumeEvent.event().getSchema();
+                //System.out.println("Avro schema " + avroSchema.toString(true));
+                DatumReader<GenericRecord> genericRecordReader = new GenericDatumReader<GenericRecord>(avroSchema);
+                byte[] bodyArray = sparkFlumeEvent.event().getBody().array();
+                System.out.println("Content: " +new String(sparkFlumeEvent.event().getBody().array()));
+                String tempLine = new String(sparkFlumeEvent.event().getBody().array());
+
+                file.add(tempLine);
+
+                //check if there is a header
+                if(tempLine.charAt(0) == '0'){
+                    header = true;
+                    System.out.println("HEADER STATUS:" + header);
+                }
+
+                if(tempLine.charAt(0) == '9' && header){
+                    System.out.println("OUTPUT");
+
+                    Configuration conf = new Configuration();
+                    FileSystem fs = FileSystem.get(URI.create("/user/cloudera/xml_output"), conf);
+                    System.out.println("Connecting to -- "+conf.get("fs.defaultFS"));
+                    OutputStream out = fs.create(new org.apache.hadoop.fs.Path("/user/cloudera/xml_output/test.xml"));
+
+
+                    //create the hdfs file and process it
+                    try{
+                        gerarXml(file,out);
+                    }catch (IOException | JAXBException e){
+                        System.out.println(e);
+                    }
+                    out.flush();
+                    out.close();
+
+                    //erase the contents and variables
+                    header = false;
+                    file = new LinkedList<String>();
+                }
+
+                //System.out.println("Tamanho do arquivo: " + file.size());
+
+                return Arrays.asList("Tamanho do arquivo: " + file.size());
+            }
+        }).print(50);
+
+
+        //validarXML();
+
+        ssc.start();
+
+        /*
+        try{
+            gerarXml(file);
+        }catch (IOException | JAXBException e){
+            System.out.println(e);
+        }
+        */
+
+        ssc.awaitTermination();
         /*
         //"/Users/user/Documents/resprojetobigdata/TIVIT_TESTE_1.txt"
         List<String> lines = lerArquivoRemessa(inputFile);
@@ -68,16 +154,11 @@ public class  Main {
             System.out.println(l);
         }*/
         //escreverArquivoRetorno(outputFile,leituraArquivoRemessa(inputFile));
+        ssc.stop();
 
-        /*
-        try{
-            gerarXml(lerArquivoRemessa(inputFile));
-        }catch (IOException | JAXBException e){
-            System.out.println(e);
-        }
-        validarXML();
-        */
     }
+
+
 
     static List<String> lerArquivoRemessa(String file){
         List<String> lines = new LinkedList<String>();
@@ -113,9 +194,9 @@ public class  Main {
         return s.substring(startIndex, endIndex);
     }
 
-    static void gerarXml(List<String> linhas) throws JAXBException, IOException {
+    static boolean gerarXml(List<String> linhas, OutputStream out) throws JAXBException, IOException {
 
-        File f = new File(outputFile);
+        //File f = new File(outputFile);
         JAXBContext context= JAXBContext.newInstance("com.company");
         Marshaller jaxbMarshaller = context.createMarshaller();
         jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
@@ -385,8 +466,9 @@ public class  Main {
         }
 
 
-        jaxbMarshaller.marshal(multiplas, f);
+        jaxbMarshaller.marshal(multiplas, out);
         adicionarTag("dsResEmpresa",null,"numeroVersao");
+        return true;
     }
 
     static void validarXML(){
@@ -395,7 +477,7 @@ public class  Main {
             //Source xmlFile = new StreamSource(new File("schMULTIPLASCAOA_output.xml"));
             Source xmlFile = new StreamSource(new File(outputFile));
             SchemaFactory schemaFactory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
-            Schema schema = schemaFactory.newSchema(schemaFile);
+            javax.xml.validation.Schema schema = schemaFactory.newSchema(schemaFile);
             Validator validator = schema.newValidator();
             validator.validate(xmlFile);
             System.out.println(xmlFile.getSystemId() + " is valid");
