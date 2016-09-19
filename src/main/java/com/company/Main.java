@@ -1,8 +1,5 @@
 package com.company;
 
-
-
-
 import org.apache.avro.Schema;
 import org.apache.avro.generic.GenericDatumReader;
 import org.apache.avro.generic.GenericRecord;
@@ -51,7 +48,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class  Main {
-    public static String inputFile = null;
     public static String outputFile = null;
 
     public static List<String> file = null;
@@ -66,7 +62,7 @@ public class  Main {
         //JavaStreamingContext streamingContext = new JavaStreamingContext(conf, Durations.seconds(1000));
         SparkConf sparkConf = new SparkConf().setAppName("TIVIT");
         JavaStreamingContext ssc = new JavaStreamingContext(sparkConf, batchInterval);
-        JavaReceiverInputDStream<SparkFlumeEvent> flumeStream = FlumeUtils.createStream(ssc, "127.0.0.1", 10004);
+        JavaReceiverInputDStream<SparkFlumeEvent> flumeStream = FlumeUtils.createStream(ssc, "127.0.0.1", 10010);
 
 
         //flumeStream.print();
@@ -88,10 +84,20 @@ public class  Main {
             public Iterable<String> call(SparkFlumeEvent sparkFlumeEvent) throws Exception {
                 //System.out.println("Inside flatMap.call() ");
                 org.apache.avro.Schema avroSchema = sparkFlumeEvent.event().getSchema();
-                //System.out.println("Avro schema " + avroSchema.toString(true));
+                System.out.println("Avro schema: " + avroSchema.toString(true));
                 DatumReader<GenericRecord> genericRecordReader = new GenericDatumReader<GenericRecord>(avroSchema);
                 byte[] bodyArray = sparkFlumeEvent.event().getBody().array();
-                System.out.println("Content: " +new String(sparkFlumeEvent.event().getBody().array()));
+                //System.out.println("Content: " +new String(sparkFlumeEvent.event().getBody().array()));
+                String headerContent = Arrays.toString(sparkFlumeEvent.event().getHeaders().entrySet().toArray());
+                int barPos = headerContent.lastIndexOf("/");
+
+                System.out.println("HEADER: " + headerContent);
+
+                String fileName = slice(headerContent,barPos+1,headerContent.length()-4);
+
+                System.out.println("HEADER: " + fileName);
+
+                System.out.println("Content: " + new String(sparkFlumeEvent.event().getBody().array()));
                 String tempLine = new String(sparkFlumeEvent.event().getBody().array());
 
                 file.add(tempLine);
@@ -108,7 +114,7 @@ public class  Main {
                     Configuration conf = new Configuration();
                     FileSystem fs = FileSystem.get(URI.create("/user/cloudera/xml_output"), conf);
                     System.out.println("Connecting to -- "+conf.get("fs.defaultFS"));
-                    OutputStream out = fs.create(new org.apache.hadoop.fs.Path("/user/cloudera/xml_output/test.xml"));
+                    OutputStream out = fs.create(new org.apache.hadoop.fs.Path("/user/cloudera/xml_output/"+fileName+"xml"));
 
 
                     //create the hdfs file and process it
@@ -222,7 +228,7 @@ public class  Main {
         multiplas.setDsNomeEmpresa(slice(header,25,65));
         multiplas.setDsNomeBanco("null");
         multiplas.setNumeroNsa(0);
-        //multiplas.setDsResEmpresa(null);
+        multiplas.setDsResEmpresa("null");
         multiplas.setNumeroVersao("null");
         multiplas.setHoraGeracaoArq(slice(header,86,92));
         GregorianCalendar tmpCalendar = new GregorianCalendar( Integer.valueOf(slice(header,78,82)), Integer.valueOf(slice(header,82,84)) , Integer.valueOf(slice(header,84,86)));
@@ -467,7 +473,7 @@ public class  Main {
 
 
         jaxbMarshaller.marshal(multiplas, out);
-        adicionarTag("dsResEmpresa",null,"numeroVersao");
+        //adicionarTag("dsResEmpresa",null,"numeroVersao");
         return true;
     }
 
