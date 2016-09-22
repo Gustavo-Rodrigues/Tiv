@@ -37,48 +37,47 @@ import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
 import java.io.*;
 import java.math.BigDecimal;
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.net.SocketException;
 import java.net.URI;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.GregorianCalendar;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class  Main {
-    public static String outputFile = null;
 
+    public static String outputFile = null;
     public static List<String> file = null;
     public static boolean header = false;
-    //public static boolean trailler = false;
+    public static String ip = null;
 
-    public static void main(String[] args) {
+        //public static boolean trailler = false;
+    public static void main(String[] args) throws SocketException {
+        Enumeration<NetworkInterface> nets = NetworkInterface.getNetworkInterfaces();
+        for (NetworkInterface netint : Collections.list(nets))
+            displayInterfaceInformation(netint);
+        System.out.println("-------------->  IP: " + ip);
 
         SparkConf conf = new SparkConf().setAppName("tivit_test");
-
         Duration batchInterval = new Duration(10000);
         //JavaStreamingContext streamingContext = new JavaStreamingContext(conf, Durations.seconds(1000));
         SparkConf sparkConf = new SparkConf().setAppName("TIVIT");
         JavaStreamingContext ssc = new JavaStreamingContext(sparkConf, batchInterval);
-        JavaReceiverInputDStream<SparkFlumeEvent> flumeStream = FlumeUtils.createStream(ssc, "127.0.0.1", 10010);
-
-
+        JavaReceiverInputDStream<SparkFlumeEvent> flumeStream = FlumeUtils.createStream(ssc, ip, 10010);
         //flumeStream.print();
-
         //flumeStream.count();
-
-        /*
+        System.out.println("comeco das funcoes");
         flumeStream.count().map(new Function<Long, String>() {
             @Override
             public String call(Long in) {
                 return "Received " + in + " flume events.";
             }
         }).print();
-        */
-       file = new LinkedList<String>();
 
+        file = new LinkedList<String>();
         flumeStream.flatMap(new FlatMapFunction<SparkFlumeEvent, String>() {
             @Override
             public Iterable<String> call(SparkFlumeEvent sparkFlumeEvent) throws Exception {
@@ -90,33 +89,23 @@ public class  Main {
                 //System.out.println("Content: " +new String(sparkFlumeEvent.event().getBody().array()));
                 String headerContent = Arrays.toString(sparkFlumeEvent.event().getHeaders().entrySet().toArray());
                 int barPos = headerContent.lastIndexOf("/");
-
                 System.out.println("HEADER: " + headerContent);
-
                 String fileName = slice(headerContent,barPos+1,headerContent.length()-4);
-
                 System.out.println("HEADER: " + fileName);
-
                 System.out.println("Content: " + new String(sparkFlumeEvent.event().getBody().array()));
                 String tempLine = new String(sparkFlumeEvent.event().getBody().array());
-
                 file.add(tempLine);
-
                 //check if there is a header
                 if(tempLine.charAt(0) == '0'){
                     header = true;
                     System.out.println("HEADER STATUS:" + header);
                 }
-
                 if(tempLine.charAt(0) == '9' && header){
                     System.out.println("OUTPUT");
-
                     Configuration conf = new Configuration();
                     FileSystem fs = FileSystem.get(URI.create("/user/cloudera/xml_output"), conf);
                     System.out.println("Connecting to -- "+conf.get("fs.defaultFS"));
                     OutputStream out = fs.create(new org.apache.hadoop.fs.Path("/user/cloudera/xml_output/"+fileName+"xml"));
-
-
                     //create the hdfs file and process it
                     try{
                         gerarXml(file,out);
@@ -125,23 +114,16 @@ public class  Main {
                     }
                     out.flush();
                     out.close();
-
                     //erase the contents and variables
                     header = false;
                     file = new LinkedList<String>();
                 }
-
                 //System.out.println("Tamanho do arquivo: " + file.size());
-
                 return Arrays.asList("Tamanho do arquivo: " + file.size());
             }
         }).print(50);
-
-
         //validarXML();
-
         ssc.start();
-
         /*
         try{
             gerarXml(file);
@@ -149,22 +131,30 @@ public class  Main {
             System.out.println(e);
         }
         */
-
         ssc.awaitTermination();
         /*
         //"/Users/user/Documents/resprojetobigdata/TIVIT_TESTE_1.txt"
         List<String> lines = lerArquivoRemessa(inputFile);
-
-
         for (String l: lines) {
             System.out.println(l);
         }*/
         //escreverArquivoRetorno(outputFile,leituraArquivoRemessa(inputFile));
         ssc.stop();
-
     }
-
-
+    static void displayInterfaceInformation(NetworkInterface netint) throws SocketException {
+        System.out.printf("Display name: %s\n", netint.getDisplayName());
+        System.out.printf("Name: %s\n", netint.getName());
+        Enumeration<InetAddress> inetAddresses = netint.getInetAddresses();
+        for (InetAddress inetAddress : Collections.list(inetAddresses)) {
+            System.out.printf("InetAddress: %s\n", inetAddress);
+            if(!inetAddress.toString().equals("/127.0.0.1")){
+                if(inetAddress.toString().length() <= 15){
+                    ip = slice(inetAddress.toString(),1,inetAddress.toString().length());
+                }
+            }
+        }
+        System.out.printf("\n");
+    }
 
     static List<String> lerArquivoRemessa(String file){
         List<String> lines = new LinkedList<String>();
