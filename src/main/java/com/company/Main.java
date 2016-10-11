@@ -50,23 +50,30 @@ import java.util.*;
 public class  Main {
 
     public static String outputFile = null;
-    public static List<String> file = null;
+    public static List<String> file = new LinkedList<String>();
     public static boolean header = false;
     public static String ip = null;
 
         //public static boolean trailler = false;
     public static void main(String[] args) throws SocketException {
-        Enumeration<NetworkInterface> nets = NetworkInterface.getNetworkInterfaces();
-        for (NetworkInterface netint : Collections.list(nets))
-            displayInterfaceInformation(netint);
-        System.out.println("-------------->  IP: " + ip);
-
         SparkConf conf = new SparkConf().setAppName("tivit_test");
         Duration batchInterval = new Duration(10000);
         //JavaStreamingContext streamingContext = new JavaStreamingContext(conf, Durations.seconds(1000));
         SparkConf sparkConf = new SparkConf().setAppName("TIVIT");
         JavaStreamingContext ssc = new JavaStreamingContext(sparkConf, batchInterval);
-        JavaReceiverInputDStream<SparkFlumeEvent> flumeStream = FlumeUtils.createStream(ssc, ip, 10010);
+        int porta = Integer.parseInt(args[1]);
+        JavaReceiverInputDStream<SparkFlumeEvent> flumeStream = FlumeUtils.createStream(ssc, args[0], porta);
+
+        if(args[0].equals("find")){
+            Enumeration<NetworkInterface> nets = NetworkInterface.getNetworkInterfaces();
+            for (NetworkInterface netint : Collections.list(nets))
+                displayInterfaceInformation(netint);
+            System.out.println("-------------->  IP: " + ip);
+            flumeStream = FlumeUtils.createStream(ssc, ip, porta);
+        }
+
+
+
         //flumeStream.print();
         //flumeStream.count();
         System.out.println("comeco das funcoes");
@@ -77,21 +84,20 @@ public class  Main {
             }
         }).print();
 
-        file = new LinkedList<String>();
         flumeStream.flatMap(new FlatMapFunction<SparkFlumeEvent, String>() {
             @Override
             public Iterable<String> call(SparkFlumeEvent sparkFlumeEvent) throws Exception {
                 //System.out.println("Inside flatMap.call() ");
                 org.apache.avro.Schema avroSchema = sparkFlumeEvent.event().getSchema();
-                System.out.println("Avro schema: " + avroSchema.toString(true));
+                //System.out.println("Avro schema: " + avroSchema.toString(true));
                 DatumReader<GenericRecord> genericRecordReader = new GenericDatumReader<GenericRecord>(avroSchema);
                 byte[] bodyArray = sparkFlumeEvent.event().getBody().array();
                 //System.out.println("Content: " +new String(sparkFlumeEvent.event().getBody().array()));
                 String headerContent = Arrays.toString(sparkFlumeEvent.event().getHeaders().entrySet().toArray());
                 int barPos = headerContent.lastIndexOf("/");
-                System.out.println("HEADER: " + headerContent);
+                //System.out.println("HEADER: " + headerContent);
                 String fileName = slice(headerContent,barPos+1,headerContent.length()-4);
-                System.out.println("HEADER: " + fileName);
+                //System.out.println("HEADER: " + fileName);
                 System.out.println("Content: " + new String(sparkFlumeEvent.event().getBody().array()));
                 String tempLine = new String(sparkFlumeEvent.event().getBody().array());
                 file.add(tempLine);
@@ -101,44 +107,31 @@ public class  Main {
                     System.out.println("HEADER STATUS:" + header);
                 }
                 if(tempLine.charAt(0) == '9' && header){
-                    System.out.println("OUTPUT");
+                    System.out.println("<------------------------------------------------------------->");
+                    System.out.println("\n \n OUTPUT \n \n");
                     Configuration conf = new Configuration();
-                    FileSystem fs = FileSystem.get(URI.create("/user/cloudera/xml_output"), conf);
+                    FileSystem fs = FileSystem.get(URI.create("/user/cloudera/xml/out"), conf);
                     System.out.println("Connecting to -- "+conf.get("fs.defaultFS"));
-                    OutputStream out = fs.create(new org.apache.hadoop.fs.Path("/user/cloudera/xml_output/"+fileName+"xml"));
+                    OutputStream out = fs.create(new org.apache.hadoop.fs.Path("/user/cloudera/xml/out/"+fileName+"xml"));
                     //create the hdfs file and process it
                     try{
-                        gerarXml(file,out);
+                        gerarXml(file,out,fileName);
                     }catch (IOException | JAXBException e){
                         System.out.println(e);
                     }
                     out.flush();
                     out.close();
+                    header= false;
                     //erase the contents and variables
-                    header = false;
                     file = new LinkedList<String>();
                 }
                 //System.out.println("Tamanho do arquivo: " + file.size());
                 return Arrays.asList("Tamanho do arquivo: " + file.size());
             }
-        }).print(50);
-        //validarXML();
+        }).print(200);
+
         ssc.start();
-        /*
-        try{
-            gerarXml(file);
-        }catch (IOException | JAXBException e){
-            System.out.println(e);
-        }
-        */
         ssc.awaitTermination();
-        /*
-        //"/Users/user/Documents/resprojetobigdata/TIVIT_TESTE_1.txt"
-        List<String> lines = lerArquivoRemessa(inputFile);
-        for (String l: lines) {
-            System.out.println(l);
-        }*/
-        //escreverArquivoRetorno(outputFile,leituraArquivoRemessa(inputFile));
         ssc.stop();
     }
     static void displayInterfaceInformation(NetworkInterface netint) throws SocketException {
@@ -156,33 +149,8 @@ public class  Main {
         System.out.printf("\n");
     }
 
-    static List<String> lerArquivoRemessa(String file){
-        List<String> lines = new LinkedList<String>();
-        Path readFile = Paths.get(file);
-        Charset charset = Charset.forName("US-ASCII");
-        try (BufferedReader reader = Files.newBufferedReader(readFile, charset)) {
-            String line = null;
-            while ((line = reader.readLine()) != null) {
-                lines.add(line);
-            }
-        } catch (IOException x) {
-            System.err.format("IOException: %s%n", x);
-        }
-        return lines;
-    }
 
-    static void escreverArquivoRetorno(String file,List<String> linhas){
-        String header = linhas.get(0);
-        String trailler = linhas.get(linhas.size()-1);
-        Path writeFile = Paths.get(file);
-        try {
-            Files.write(writeFile, linhas, Charset.forName("UTF-8"));
-        } catch (IOException x) {
-            System.err.format("IOException: %s%n", x);
-        }
 
-        //Files.write(file, lines, Charset.forName("UTF-8"), StandardOpenOption.APPEND);
-    }
 
     static String slice(String s, int startIndex, int endIndex) {
         if (startIndex < 0) startIndex = s.length() + startIndex;
@@ -190,7 +158,7 @@ public class  Main {
         return s.substring(startIndex, endIndex);
     }
 
-    static boolean gerarXml(List<String> linhas, OutputStream out) throws JAXBException, IOException {
+    static boolean gerarXml(List<String> linhas, OutputStream out, String fileName) throws JAXBException, IOException {
 
         //File f = new File(outputFile);
         JAXBContext context= JAXBContext.newInstance("com.company");
@@ -283,7 +251,7 @@ public class  Main {
             pagamento.setCodProduto(0);
             pagamento.setCodFinalidade(0);
             pagamento.setNumeroBancoCred(slice(transacao,95,98));
-            pagamento.setNumeroAgenciaCread(Integer.valueOf(slice(transacao,98,103)));
+            pagamento.setNumeroAgenciaCread(0);
             pagamento.setNumeroAcAgenciaCred("null");
             pagamento.setNumeroContaCred(slice(transacao,104,117));
             pagamento.setNumeroAcContaCred("null");
@@ -461,8 +429,13 @@ public class  Main {
             listaPagamentos.add(pagamento);
         }
 
+        //OutputStream os = new FileOutputStream("/home/hadoop/xml/out/"+fileName+"xml");
+        //jaxbMarshaller.marshal(multiplas, os);
+        //os.flush();
+        //os.close();
 
         jaxbMarshaller.marshal(multiplas, out);
+
         //adicionarTag("dsResEmpresa",null,"numeroVersao");
         return true;
     }
